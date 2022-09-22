@@ -1,0 +1,65 @@
+body {
+  background-image: url(./img/background.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.title {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+  z-index: 10;
+}
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.row .model {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f4f4f4;
+  position: relative;
+  border-radius: 20px;
+}
+.row .model .thumbnail img {
+  border-radius: 20px;
+}
+.row .model .glass {
+  position: absolute;
+  top: -285px;
+  left: 151px;
+  opacity: 0.6;
+}
+.row .model .info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(239, 166, 115, 0.7);
+  width: 100%;
+  color: white;
+  padding: 20px;
+  border-radius: 20px;
+}
+.row .model .info .detail h3 {
+  color: blue;
+  font-weight: 700;
+}
+.row .model .info .detail p {
+  font-weight: 700;
+}
+.glasses {
+  display: flex;
+  justify-content: center;
+}
+.glasses .row {
+  margin: 40px 0;
+  background-color: #fff;
+  border-radius: 15px;
+  border: 3px solid #cecece;
+}
+.glasses .row .item img{
+  border: 3px solid #cecece;
+  padding: 5px;
+  border-radius: 10px;
+}
